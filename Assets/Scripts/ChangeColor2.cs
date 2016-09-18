@@ -10,7 +10,7 @@ public class ChangeColor2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        StartCoroutine(fadeColor(gameObject, Color.red, 5));
+        StartCoroutine(fadeColor(gameObject, Color.red, 10));
     }
     IEnumerator fadeColor(GameObject objectToFade, Color newColor, float fadeTime = 3)
     {
