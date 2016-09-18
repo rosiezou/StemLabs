@@ -10,6 +10,8 @@ public class ChangeColor : MonoBehaviour {
     public float transparency = 0.0f;
 	// Use this for initialization
 	void Start () {
+        //need a trigger
+
         Renderer rend = GetComponent<Renderer>();
         //rend.material.shader = Shader.Find("Specular");
         rend.material.SetColor("_SpecColor", Color.red);
